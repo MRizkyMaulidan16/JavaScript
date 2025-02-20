@@ -1,6 +1,7 @@
 console.log("Nama : Zidan");
 console.log("Jurusan : PPL");
-document.write("<p>Nama : Zidan, Jurusan <strong>PPL</strong></p>");
+document.write("<p>Nama & Jurusan ada di console</p>");
+document.write("<p>silahkan tekan ctrl + shift + i</p>");
 
 alert('Untuk mengetahui tanggal lahir saya, silahkan klik tombol Proses');
 function lahirTanggal(){
