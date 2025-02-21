@@ -10,10 +10,13 @@
 <body>
     <h1>Belajar JavaScript</h1>
     <p>Variabel & Tipe Data</p>
-
-
+    <h3>Yang pake Alert</h3>
+    <button onclick="tapiboong()">Click sini</button>
+    <button onclick="bio()">Yang ini</button>
+    <br><br><hr>
 
     <script>
+        
         var nama = 'Zidan';
         var umur = 20;
         var jurusan = 'PPL';
@@ -32,7 +35,22 @@
         var pekerjaan = 'Pengembang';
         var pengalaman = 5;
 
-       
+       function tapiboong(){
+        alert('Tapi Boong!');
+       };
+
+       function bio() {
+        alert('Nama saya ' + nama)
+        alert('Umur saya ' + umur)
+        alert('Jurusan saya '+ jurusan)
+        alert('Mahasiswa : '+ mahasiswa)
+        alert('Alamat : '+ alamat)
+        alert('Hobi : '+ hobi)
+        alert('Pekerjaan : '+ pekerjaan)
+        alert('Pengalaman : '+ pengalaman +' Tahun')
+
+
+       };
 
        
         document.write('Nama: ' + nama + '<br>');
