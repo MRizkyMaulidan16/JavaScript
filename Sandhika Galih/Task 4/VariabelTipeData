@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variabel & Tipe Data</title>
+</head>
+
+<body>
+    <h1>Belajar JavaScript</h1>
+    <p>Variabel & Tipe Data</p>
+
+
+
+    <script>
+        var nama = 'Zidan';
+        var umur = 20;
+        var jurusan = 'PPL';
+        var mahasiswa = true;
+        var alamat = null;
+        // Tipe data array
+        var hobi = ['Baca', ' Belajar', ' Coding'];
+        // Tipe data object
+        var datadiri = {
+            nama: 'Zidan',
+            umur: 20,
+            mahasiswa: true,
+            alamat: null,
+            hobi: ['Baca', 'Belajar', 'Coding'],
+        };
+        var pekerjaan = 'Pengembang';
+        var pengalaman = 5;
+
+       
+
+       
+        document.write('Nama: ' + nama + '<br>');
+        document.write('Umur: ' + umur + '<br>');
+        document.write('Jurusan: ' + jurusan + '<br>');
+        document.write('Mahasiswa:'+ mahasiswa + '<br>');
+        document.write('Alamat: '+ alamat + '<br>');
+        document.write('Hobi: '+ hobi + '<br>');
+        document.write('Pekerjaan : ' + pekerjaan + '<br>');
+        document.write('Pengalaman : '+ pengalaman + ' Tahun');
+        
+
+        console.log('Nama : ' + nama);
+        console.log('umur : ' + umur);
+        console.log('Jurusan : ' + jurusan);
+        console.log('Mahasiswa :'+ mahasiswa);
+        console.log('Alamat : '+ alamat);
+        console.log('Hobi : '+ hobi);
+        console.log(datadiri);
+        console.log('Pekerjaan : '+ pekerjaan);
+        console.log('Pengalaman : '+ pengalaman +' Tahun');
+        
+
+
+    </script>
+
+</body>
+
+</html>
